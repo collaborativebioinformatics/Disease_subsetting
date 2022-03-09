@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-03-09T21:16:06.868Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/98.0.4758.102 Safari/537.36" etag="IDX8EbGF0boUjjSW9BIJ" version="17.1.0" type="github">
+<mxfile host="app.diagrams.net" modified="2022-03-09T21:17:29.305Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/98.0.4758.102 Safari/537.36" etag="MHc6Qrg4eOXOiE0VYJ3c" version="17.1.0" type="github">
   <diagram id="-uRTVZ6xyd__EYCAiGyI" name="Page-1">
     <mxGraphModel dx="868" dy="450" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -47,19 +47,31 @@
           <mxGeometry x="400" y="260" width="150" height="150" as="geometry" />
         </mxCell>
         <mxCell id="xfakINtN89_Vgtfd74Ad-13" value="Disease Subtyping" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontStyle=5" parent="1" vertex="1">
-          <mxGeometry x="442.5" y="270" width="115" height="30" as="geometry" />
+          <mxGeometry x="417.5" y="270" width="115" height="30" as="geometry" />
         </mxCell>
         <mxCell id="IsUo8-37KHM_wyEVmpBv-1" value="Clinician" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;" vertex="1" parent="1">
-          <mxGeometry x="220" y="270" width="90" height="100" as="geometry" />
+          <mxGeometry x="150" y="260" width="90" height="100" as="geometry" />
         </mxCell>
         <mxCell id="IsUo8-37KHM_wyEVmpBv-2" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="340" y="300" as="sourcePoint" />
-            <mxPoint x="390" y="300" as="targetPoint" />
+            <mxPoint x="330" y="334.5" as="sourcePoint" />
+            <mxPoint x="380" y="334.5" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="oL41kyzp0vRWmvtMpPyE-1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.75;exitDx=0;exitDy=0;labelBackgroundColor=#33FF33;fontColor=#80FF00;" edge="1" parent="1" source="IsUo8-37KHM_wyEVmpBv-3">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="310" y="270" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="280" y="343" />
+              <mxPoint x="280" y="320" />
+              <mxPoint x="260" y="320" />
+              <mxPoint x="260" y="290" />
+              <mxPoint x="310" y="290" />
+            </Array>
           </mxGeometry>
         </mxCell>
         <mxCell id="IsUo8-37KHM_wyEVmpBv-3" value="Recommending&amp;nbsp;&lt;br&gt;Drugs" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="340" y="260" width="60" height="30" as="geometry" />
+          <mxGeometry x="320" y="300" width="60" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
