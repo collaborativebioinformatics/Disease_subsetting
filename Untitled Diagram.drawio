@@ -1,1 +1,67 @@
-<mxfile host="app.diagrams.net" modified="2022-03-09T21:04:03.472Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/98.0.4758.82 Safari/537.36" etag="ZGrrYGdQzWLbZ5OMErVV" version="16.6.6" type="github"><diagram id="-uRTVZ6xyd__EYCAiGyI" name="Page-1">5Vhdb5swFP01eWwEGAh5TJN2m7R2Xam67WlywQGrDkbGaWC/ftfFJHx1+VDaRl0eIvvYXK7PuRxsBmi6yD8JnMZXPCRsYBlhPkCzgWV5rgf/CihKwEZmCUSChiVUA3z6h2jQ0OiShiRrTJScM0nTJhjwJCGBbGBYCL5qTptz1rxriiPSAfwAsy76g4Yy1styjA3+mdAoru5sGnpkgavJGshiHPJVDUIXAzQVnMuytcinhCnuKl7K6y5fGF0nJkgid7kgn+PHL9fy2hv/vo/kPBzZk/BMR3nCbKkXrJOVRcUA5J2qZlAwmoREoAE6X8VUEj/FgRpYgfCAxXLBoGdC84EvYWb49WEN4OAxEgr9tpQQhmg8K/U2HWjPKWNTzrh4vi3yzi8vnTHgOkMiJMlfXLq5JhQKkfAFkaKAKfoCV0ugaxDp7mojqFmpFNfF9DSIdRFF68gbnqGhqd6DdqtD+/QWIhnTKx/+b68n/sV3aMwmd9C68zuaABWySXkmBX8kFX8JVxQ3KNUQZjRKlJpAHQH8XBFLod4nemBBw1DdpldjUQoLgHEcZcZNZcZdZdweYdBr6YJ2fxzmjOQTZTBABElC3ZwFDGcZDZriNGkjOZU/1cjQsBzd/6XGhrbl6f4sr02eFbXODREUFqu0q4lAwo6NtSSARfClCMg2M+hKVRPD6RGjwgRhWNKnZhp9Cuk73HAKCa4rYe2TuhRMtyVymb6+qu5z7UBeK5AxagaSWEREdgI9F8x62YfXkL29hjb1YG430yM8ZW1K+gxw1GeAo9d60JwOSTfwvlxhlTROMCsymp2o6815In2dlH0EcZDpNMSxe8Qx3tIE3Y9rgu9lbrbb9iRjaKDx5uce5nWOM2rHfVOvG52e1zk7bPbGfV7Xft8c7XnyOiTd02wJlgR7X5UXpAV7vrMspknxn3ie09r3OTvuyF/N88w9DkKHm161PBOVl+rjrjM0x3uYGJyAn5/qfy3Hek+3cx172HynWW1f2tXguqHQjhYHspS7CT0tVROyvZJ2GgdqaJQxj+qgZvco2Cm8LaaJs7T88jGnuSq1Y7io3dqUnMCW0ewezmY0IzhTLuovH2SR0iQ6UQM9hiRWS5K+jWIl29uYZveoc6fY/rAStD9XjHoU6PteccDWArqbT4Ol2Wy+r6KLvw==</diagram></mxfile>
+<mxfile host="app.diagrams.net" modified="2022-03-09T21:10:40.019Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/98.0.4758.82 Safari/537.36" etag="u7IU9WtInQNwtXjNRANp" version="16.6.6" type="github">
+  <diagram id="-uRTVZ6xyd__EYCAiGyI" name="Page-1">
+    <mxGraphModel dx="868" dy="488" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="xfakINtN89_Vgtfd74Ad-1" value="" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;fillColor=#8BFF59;" parent="1" vertex="1">
+          <mxGeometry x="60" y="30" width="120" height="180" as="geometry" />
+        </mxCell>
+        <mxCell id="xfakINtN89_Vgtfd74Ad-2" value="CRC CMS RNASEQ DATASETS" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
+          <mxGeometry x="90" y="90" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="xfakINtN89_Vgtfd74Ad-3" value="" style="shape=flexArrow;endArrow=classic;html=1;rounded=0;exitX=1.025;exitY=0.428;exitDx=0;exitDy=0;exitPerimeter=0;" parent="1" source="xfakINtN89_Vgtfd74Ad-1" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="220" y="160" as="sourcePoint" />
+            <mxPoint x="280" y="107" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="xfakINtN89_Vgtfd74Ad-4" value="" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="280" y="30" width="170" height="170" as="geometry" />
+        </mxCell>
+        <mxCell id="xfakINtN89_Vgtfd74Ad-5" value="Pathway analysis" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontStyle=4" parent="1" vertex="1">
+          <mxGeometry x="315" y="40" width="100" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="xfakINtN89_Vgtfd74Ad-6" value="" style="shape=flexArrow;endArrow=classic;html=1;rounded=0;exitX=1.025;exitY=0.428;exitDx=0;exitDy=0;exitPerimeter=0;" parent="1" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="460" y="100.03999999999996" as="sourcePoint" />
+            <mxPoint x="557" y="100" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="xfakINtN89_Vgtfd74Ad-7" value="" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="560" y="30" width="190" height="160" as="geometry" />
+        </mxCell>
+        <mxCell id="xfakINtN89_Vgtfd74Ad-8" value="Visualize with R-shiny" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontStyle=4" parent="1" vertex="1">
+          <mxGeometry x="590" y="50" width="120" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="xfakINtN89_Vgtfd74Ad-11" value="" style="shape=flexArrow;endArrow=classic;html=1;rounded=0;width=13;endSize=5.19;" parent="1" target="xfakINtN89_Vgtfd74Ad-12" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="654.5" y="200" as="sourcePoint" />
+            <mxPoint x="654.5" y="300" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="654.5" y="250" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="xfakINtN89_Vgtfd74Ad-12" value="" style="whiteSpace=wrap;html=1;aspect=fixed;" parent="1" vertex="1">
+          <mxGeometry x="415" y="230" width="170" height="170" as="geometry" />
+        </mxCell>
+        <mxCell id="xfakINtN89_Vgtfd74Ad-13" value="Disease Subtyping" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
+          <mxGeometry x="425" y="240" width="115" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="IsUo8-37KHM_wyEVmpBv-1" value="Clinician" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;" vertex="1" parent="1">
+          <mxGeometry x="220" y="270" width="90" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="IsUo8-37KHM_wyEVmpBv-2" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="340" y="300" as="sourcePoint" />
+            <mxPoint x="390" y="300" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="IsUo8-37KHM_wyEVmpBv-3" value="Recommending&amp;nbsp;&lt;br&gt;Drugs" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="340" y="260" width="60" height="30" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
