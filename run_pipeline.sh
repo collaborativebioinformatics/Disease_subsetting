@@ -41,3 +41,6 @@ for sraFile in ncbi/public/sra/*.sra; do
     --outdir fastq \
     ${sraFile}
 done
+
+#downloading the reference genome
+wget https://ftp.ncbi.nlm.nih.gov/refseq/H_sapiens/annotation/GRCh38_latest/refseq_identifiers/GRCh38_latest_genomic.fna.gz
