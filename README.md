@@ -4,10 +4,12 @@
 
 Pipeline steps:
 1. Download CMS SRA data from NCBI using SRA toolkit:
+
     Run selector for:
     - Colorectal cancer
     - Homo Sapiens
     - RNA
+    
     In Selector select:
     - consensus_molecular_subtype
     - cms1, cms2, cms3 and cms4
