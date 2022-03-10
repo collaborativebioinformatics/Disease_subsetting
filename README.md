@@ -20,14 +20,14 @@ Pipeline steps:
    - hisat2 index for GRCh38 reference genome (NCBI)
    - hisat2 mapper for fastq files
 
-## Treatment suggestion
+## Treatment recommendations
 * The immediate goal right now is to link the pathway analysis output somehow to KEGG pathway or network database. Input could be: pathway/gene, overexpression/underexpression/mutation extent score, as well as a value to represent how focal/common that pathway/gene is to colorectal cancer.
 * KEGG API-based applet to fetch all drugs targeting an input gene/pathway has been built.
 * We can then build an equation/mini-algorithm to come up with top *n* drugs given the pathway information
 * Alternatively, we can solely base it on literature-searched drugs relevant to the specific pathways
 
 ## Visualization
-This is the output that gets shown to the doctors.
+### Output for clinicians and clinical researchers
 
 Things to be included:
 * CMS subtype classification
