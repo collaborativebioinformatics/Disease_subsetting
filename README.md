@@ -15,7 +15,7 @@ Our tool performs RNA-seq pathway analysis based on CMS data of the colorectal c
 The analysis result is then used to come up with drug recommendations based on enzymes involved in that pathways and finding their inhibitors or activators. Overall, this entire workflow creates a link between a colorectal cancer subtype that a specific patient is suffering from, and a drug that could be used in treatment of the disease. That means that the drug recommendation is personalized.
 
 ## Overall pipeline
-![Flowchart](https://user-images.githubusercontent.com/89701701/157957351-4b9ee309-40ed-4e7f-a2f6-41187d74cc0c.png)
+![Flowchart]([https://user-images.githubusercontent.com/89701701/157957351-4b9ee309-40ed-4e7f-a2f6-41187d74cc0c.png])
 
 
 ## Pathway analysis
