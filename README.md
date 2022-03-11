@@ -81,7 +81,7 @@ singularity exec expressed_variants.sif R <path_to_Rscript>
 ### Outputs:
 
 ### Detailed flow charts:
-![Flowchart](https://user-images.githubusercontent.com/89701701/157918022-3481ede5-c7f2-48b7-9ef5-ae4923605115.png)
+![Flowchart](https://user-images.githubusercontent.com/89701701/157918874-1a4eae0f-3682-44e5-8504-318c5e93e783.png)
 
 ## Implementation (codes)
 
