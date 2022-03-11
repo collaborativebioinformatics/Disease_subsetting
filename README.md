@@ -3,6 +3,7 @@
 ## Contributors
 
 David Enoma
+
 Jędrzej Kubica
 
 ## What kind of problem are we trying to solve?
