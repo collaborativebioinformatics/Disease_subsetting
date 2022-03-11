@@ -1,4 +1,5 @@
-# Disease_subsetting
+# Disease subsetting and personalized medication recommendation
+
 ## What is the problem?
 The consensus molecular subtypes (CMS) classification classifies CRC into four molecular subtypes with distinct biological characteristics, which may form the basis for clinical stratification and subtype-based targeted intervention.
 
