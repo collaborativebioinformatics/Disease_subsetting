@@ -5,6 +5,7 @@
 David Enoma ()
 
 Jędrzej Kubica (jj.kubica@student.uw.edu.pl)
+
 Neda ghohabi (nedaghohabi777@gmail.com)
 
 ## What kind of problem are we trying to solve?
