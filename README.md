@@ -84,7 +84,7 @@ which targets:
 ![drug_list](fig/drug_list.png)
 
 ### Future steps
-* Making a shiny dashboard to easily access information about each drug
+* An interface to easily access information about each drug
 
 
 ## Installation & software requirements
