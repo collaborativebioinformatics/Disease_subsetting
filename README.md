@@ -1,6 +1,6 @@
 # Disease subsetting and personalized medication recommendation
 
-## Why kind of problem are we trying to solve?
+## What kind of problem are we trying to solve?
 The consensus molecular subtypes (CMS) classification classifies colorectal cancer into four molecular subtypes with distinct biological characteristics, which may form the basis for clinical stratification and subtype-based targeted intervention. We aim to develop a tool that would, based on this information, automate drug recommendation for patients with a specific molecular subtype of colorectal cancer.
 
 ## What does our tool do?
