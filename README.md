@@ -13,7 +13,7 @@ The analysis result is then used to come up with drug recommendations based on e
 
 ## Pathway analysis
 Pipeline steps:
-1. Download CMS SRA data from NCBI using SRA toolkit:
+1. Download CMS SRA data from NCBI using SRA toolkit: (https://www.ncbi.nlm.nih.gov/Traces/study/?query_key=3&WebEnv=MCID_622b744a94b9b522d227f612&f=consensus_molecular_subtype_sam_s%3An%3Ac&o=acc_s%3Aa)
 
     Run selector for:
     - Colorectal cancer
