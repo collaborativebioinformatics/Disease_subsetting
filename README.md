@@ -14,8 +14,6 @@ Rissy M. Wesonga (rissymak@gmail.com)
 
 Jesujoba Owolabi (jesujoba.owolabi.ace@stu.cu.edu.ng)
 
-Neda (nedaghohabi777@gmail.com)
-
 Hyonyoung Shin (hyonyous@andrew.cmu.edu)
 
 ## What kind of problem are we trying to solve?
