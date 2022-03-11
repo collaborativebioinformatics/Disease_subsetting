@@ -27,6 +27,8 @@ Pipeline steps:
 3. Read mapping using hisat2:
    - hisat2 index for GRCh38 reference genome (NCBI)
    - hisat2 mapper for fastq files
+4. Pathway analysis with pathway_visualisation.R
+5. Parsing and radar-plotting of pathway_visualisation.R results (.xml files)
 
 ## Visualization
 ### Output for clinicians and clinical researchers
