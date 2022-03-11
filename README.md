@@ -38,9 +38,9 @@ Things to be included:
 * Literature sources for those suggested medications/DB links (e.g. KEGG)
 * Pathway visualization linked with the drug suggestions
 
-e.g. target pathway:
+Visualisation of pathway analysis done with demo data:
 
-![target_pathway_figure_example](fig/target_pathway_figure_example.png)
+![target_pathway_figure_example](fig/demo_plot_1.png)
 
 ## Treatment recommendations
 * The immediate goal right now is to link the pathway analysis output somehow to KEGG pathway or network database. Input could be: pathway/gene, overexpression/underexpression/mutation extent score, as well as a value to represent how focal/common that pathway/gene is to colorectal cancer.
