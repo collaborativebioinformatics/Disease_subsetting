@@ -42,7 +42,7 @@ The analysis result is then used to come up with drug recommendations based on e
 ![target_pathway_figure_example](fig/demo_plot_1.png)
 
 _TODO_ 
-- Extract over/underexpression from .xml files
+- Extract over/underexpression from .xml files (radar_plots.ipynb)
 
 Radar plot example:
 
