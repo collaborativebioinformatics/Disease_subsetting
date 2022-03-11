@@ -12,7 +12,7 @@ The analysis result is then used to come up with drug recommendations based on e
 ![Disease_subsetting_flowchart](https://user-images.githubusercontent.com/82537630/157536530-5d03f842-ca3f-4e15-85df-346d97f5a78d.png)
 
 ## Pathway analysis
-Pipeline steps:
+### Pipeline steps
 1. Download CMS SRA data from NCBI using SRA toolkit: (https://www.ncbi.nlm.nih.gov/Traces/study/?query_key=3&WebEnv=MCID_622b744a94b9b522d227f612&f=consensus_molecular_subtype_sam_s%3An%3Ac&o=acc_s%3Aa)
 
     Run selector for:
@@ -28,30 +28,67 @@ Pipeline steps:
    - hisat2 index for GRCh38 reference genome (NCBI)
    - hisat2 mapper for fastq files
 
-## Visualization
-### Output for clinicians and clinical researchers
-
-Things to be included:
-* CMS subtype classification
-* Tumor site associated with the CMS subtype?
-* List of suggested drugs/treatments (potentially ranked)
-* Literature sources for those suggested medications/DB links (e.g. KEGG)
-* Pathway visualization linked with the drug suggestions
-
-Visualisation of pathway analysis done with demo data:
+### Visualisation of pathway analysis done with demo data
 
 ![target_pathway_figure_example](fig/demo_plot_1.png)
 
-## Treatment recommendations
-* The immediate goal right now is to link the pathway analysis output somehow to KEGG pathway or network database. Input could be: pathway/gene, overexpression/underexpression/mutation extent score, as well as a value to represent how focal/common that pathway/gene is to colorectal cancer.
-* KEGG API-based applet to fetch all drugs targeting an input gene/pathway has been built.
-* We can then build an equation/mini-algorithm to come up with top *n* drugs given the pathway information
-* Alternatively, we can solely base it on literature-searched drugs relevant to the specific pathways
+## Treatment recommendation
+
+### Key features for clinicians and clinical researchers
+
+* KEGG and Drugmonizome API-based applet to fetch all drugs targeting an input gene/pathway in a given disease pathway diagram (e.g. colorectal cancer)
+* Drugs are ranked according to a definition of associative strength (currently associated node count but could be based on another algorithm based on the importance of nodes or representation in literature)
+* Pathway visualization linked with the drug suggestions
+
+### Method
+1. Using Drugmonizome API, 'L1000FWD Upregulated KEGG Pathways' and 'L1000FWD Downregulated KEGG Pathways' datasets are downloaded to capture expression changes in both directions.
+
+```
+df_upregulated = parse_gmt_to_df('L1000FWD Upregulated KEGG Pathways/L1000FWD_KEGG_Pathways_drugsetlibrary_up.gmt')
+df_downregulated = parse_gmt_to_df('L1000FWD Downregulated KEGG Pathways/L1000FWD_KEGG_Pathways_drugsetlibrary_down.gmt')
+```
+2. Filter small molecules/drugs registered with a particular disease (in this case, `'colorectal cancer'`)
+
+```
+df_upregulated = df_upregulated.loc[df_upregulated['Colorectal cancer'] == 1]
+df_downregulated = df_downregulated.loc[df_downregulated['Colorectal cancer'] == 1]
+```
+
+3. `suggest_drugs(search_nodes)` takes a list of target nodes in the colorectal cancer pathway (e.g. shown in figure below) and outputs a list of all colorectal cancer drugs detected in the Drugmonizome database that match the input.
+
+![overexpression_targets](fig/overexpression_targets.png)
+
+Example output:
+```
+Target: ["ERK", "EGF", "TGFA", "EREG", "AREG", "EGFR", "KRAS", "NRAS", "PI3K", "RalGDS"]
+Your top 5 suggested drugs:
+pazopanib
+which targets:
+['KRAS', 'NRAS', 'PERK-mediated unfolded protein response (GO:0036499)', 'regulation of ERK1 and ERK2 cascade (GO:0070372)', 'VEGFA', 'AREG', 'positive regulation of ERK1 and ERK2 cascade (GO:0070374)', 'EGF', 'VEGFB', 'VEGFR inhibitor', 'EGFR', 'TGFA']
+ym-155
+which targets:
+['ERK1 and ERK2 cascade (GO:0070371)', 'HBEGF', 'negative regulation of ERK1 and ERK2 cascade (GO:0070373)', 'regulation of ERK1 and ERK2 cascade (GO:0070372)', 'AREG', 'VEGFA', 'PI3K-Akt signaling pathway', 'EREG', 'CERK', 'EGFR', 'TGFA']
+saracatinib
+which targets:
+['HBEGF', 'VEGFC', 'KRAS', 'NRAS', 'AREG', 'VEGFA', 'PI3K-Akt signaling pathway', 'EGF', 'EREG', 'EGFR', 'TGFA']
+prostratin
+which targets:
+['HBEGF', 'VEGFC', 'regulation of ERK1 and ERK2 cascade (GO:0070372)', 'AREG', 'VEGFA', 'PI3K-Akt signaling pathway', 'positive regulation of ERK1 and ERK2 cascade (GO:0070374)', 'EREG', 'MEGF9', 'EGFR', 'TGFA']
+irinotecan
+which targets:
+['HBEGF', 'KRAS', 'NRAS', 'regulation of ERK1 and ERK2 cascade (GO:0070372)', 'AREG', 'VEGFA', 'PI3K-Akt signaling pathway', 'EREG', 'EGFR', 'TGFA']
+```
+
+![drug_list](fig/drug_list.png)
+
+### Future steps
+* Making a shiny dashboard to easily access information about each drug
+
 
 ## Installation & software requirements
 
-To run the pipeline, Bioconductor needs to be installed:
+To run the pathway analysis pipeline, Bioconductor needs to be installed:
 
 `BiocManager::install(c("pathview", "gage", "gageData", "GenomicAlignments","TxDb.Hsapiens.UCSC.hg19.knownGene"))`
 
-
+To run the drug recommendation pipeline, the following packages need to be installed: `urllib`, `json`, `logging`, `pandas`, `numpy`, and `scipy`.
