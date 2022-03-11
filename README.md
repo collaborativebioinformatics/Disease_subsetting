@@ -137,4 +137,4 @@ The pathway visualization tool (pathway_visualisation.R) depends on following R 
 `pathview`, `gage`, `gageData`, `GenomicAlignments`,`TxDb.Hsapiens.UCSC.hg19.knownGene`
 
 To run the drug recommendation pipeline, the following packages need to be installed: 
-`urllib`, `json`, `logging`, `pandas`, `numpy`, and `scipy`.
+`urllib`, `json`, `logging`, `pandas`, `numpy`, and `scipy`. 
