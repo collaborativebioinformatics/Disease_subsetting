@@ -118,8 +118,9 @@ To run the pathway analysis pipeline (run_pipeline.sh), the following tools need
 
 `SRA-toolkit`, `fastq-dump`, `hisat2_index`, `hisat2_mapper`
 
-To run the 
+The pathway visualization tool (pathway_visualisation.R) depends on following R packages:
 
-`BiocManager::install(c("pathview", "gage", "gageData", "GenomicAlignments","TxDb.Hsapiens.UCSC.hg19.knownGene"))`
+`pathview`, `gage`, `gageData`, `GenomicAlignments`,`TxDb.Hsapiens.UCSC.hg19.knownGene`
 
-To run the drug recommendation pipeline, the following packages need to be installed: `urllib`, `json`, `logging`, `pandas`, `numpy`, and `scipy`.
+To run the drug recommendation pipeline, the following packages need to be installed: 
+`urllib`, `json`, `logging`, `pandas`, `numpy`, and `scipy`.
