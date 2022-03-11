@@ -103,7 +103,7 @@ which targets:
 
 ## Installation & software requirements
 
-To run the pathway analysis pipeline, the following tools need to be installed:
+To run the pathway analysis pipeline (run_pipeline.sh), the following tools need to be installed:
 
 `SRA-toolkit`, `fastq-dump`, `hisat2_index`, `hisat2_mapper`
 
