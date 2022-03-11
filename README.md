@@ -48,57 +48,10 @@ Visualisation of pathway analysis done with demo data:
 * We can then build an equation/mini-algorithm to come up with top *n* drugs given the pathway information
 * Alternatively, we can solely base it on literature-searched drugs relevant to the specific pathways
 
-## Installation
-**1.** Building/deploying docker.... 
-```
-docker, docker, docker
-```
-**2.** Setting up the Environment
+## Installation & software requirements
 
-CHANGE THIS A docker container was built to run the expression variants analysis and visualization pipeline. The recipe file (expressed_variants.def) will be available this Git repository.
+To run the pipeline, Bioconductor needs to be installed:
 
-To build the singularity container on your unix environment, do:
-```
-singularity build expressed_variants.sif expressed_variants.def
-```
+`BiocManager::install(c("pathview", "gage", "gageData", "GenomicAlignments","TxDb.Hsapiens.UCSC.hg19.knownGene"))`
 
-To run the container on your unix environment, do:
-```
-singularity run expressed_variants.sif
-```
 
-To run specific R packages by using the container, do:
-```
-singularity exec expressed_variants.sif R <path_to_Rscript>
-```
-
-**3.** Software Requirements
-
-## Methods
-
-### Inputs:
-
-### Outputs:
-
-### Detailed flow charts:
-![Flowchart](https://user-images.githubusercontent.com/89701701/157918874-1a4eae0f-3682-44e5-8504-318c5e93e783.png)
-
-## Implementation (codes)
-
-### (step 1) Preparing the sample files:<br/>
-**1.**<br/>
-```
-(codes)
-```
-
-### (step 2) :<br/>
-**1.**<br/>
-```
-(codes)
-```
-
-### (step 3) :<br/>
-**1.**<br/>
-```
-(codes)
-```
