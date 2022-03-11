@@ -74,22 +74,6 @@ singularity exec expressed_variants.sif R <path_to_Rscript>
 
 **3.** Software Requirements
 
-The following expression variants analysis tools have been installed in this container:
-
-```
-R version 4.0.4 (2021-02-15) -- "Lost Library Book"
-Bioconductor: 3.12
-ggplot2: 3.3.5
-gridExtra: 2.3
-dplyr: 1.0.7
-tidyr: 1.1.4
-magrittr: 2.0.2
-rWikiPathways: 1.10.0
-ggradar: 0.2
-ggpubr: 0.4.0
-
-```
-
 ## Methods
 
 ### Inputs:
