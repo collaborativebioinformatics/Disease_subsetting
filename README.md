@@ -103,7 +103,11 @@ which targets:
 
 ## Installation & software requirements
 
-To run the pathway analysis pipeline, Bioconductor needs to be installed:
+To run the pathway analysis pipeline, the following tools need to be installed:
+
+`SRA-toolkit`, `fastq-dump`, `hisat2_index`, `hisat2_mapper`
+
+To run the 
 
 `BiocManager::install(c("pathview", "gage", "gageData", "GenomicAlignments","TxDb.Hsapiens.UCSC.hg19.knownGene"))`
 
