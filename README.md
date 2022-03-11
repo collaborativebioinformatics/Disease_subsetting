@@ -28,7 +28,7 @@ The analysis result is then used to come up with drug recommendations based on e
    - hisat2 index for GRCh38 reference genome (NCBI)
    - hisat2 mapper for fastq files
 4. Pathway analysis with pathway_visualisation.R
-5. Parsing and radar-plotting of pathway_visualisation.R results (.xml files)
+5. TODO Parsing and radar-plotting of pathway_visualisation.R results (.xml files)
 
 ### Visualisation of pathway analysis done with demo data
 
