@@ -1,6 +1,16 @@
 # Disease_subsetting
-## Introduction
+## What is the problem?
 The consensus molecular subtypes (CMS) classification classifies CRC into four molecular subtypes with distinct biological characteristics, which may form the basis for clinical stratification and subtype-based targeted intervention.
+
+## Why are we trying to solve it?
+
+## What is (our_tool_name)?
+(Our tool) performs RNA-seq pathway analysis based on CMS data of the colorectal cancer, in search of differentially (over/under) expressed pathways that are associated with different subtypes of colorectal cancer. The final result of that analysis is visualized.
+
+The analysis result is then used to come up with drug recommendations based on enzymes involved in that pathways and finding their inhibitors or activators. Overall, this entire workflow creates a link between a colorectal cancer subtype that a specific patient is suffering from, and a drug that could be used in treatment of the disease. That means that the drug recommendation is personalized.
+
+## Introduction
+
 ## Overall pipeline
 ![Disease_subsetting_flowchart](https://user-images.githubusercontent.com/82537630/157536530-5d03f842-ca3f-4e15-85df-346d97f5a78d.png)
 
