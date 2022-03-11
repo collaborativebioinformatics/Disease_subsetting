@@ -8,6 +8,16 @@ Jędrzej Kubica (jj.kubica@student.uw.edu.pl)
 
 Neda Ghohabi (nedaghohabi777@gmail.com)
 
+Magdalena Molenda (magdalena.molenda@student.uw.edu.pl)
+
+Rissy M. Wesonga (rissymak@gmail.com)
+
+Jesujoba Owolabi (jesujoba.owolabi.ace@stu.cu.edu.ng)
+
+Neda (nedaghohabi777@gmail.com)
+
+Hyonyoung Shin (hyonyous@andrew.cmu.edu)
+
 ## What kind of problem are we trying to solve?
 The consensus molecular subtypes (CMS) classification classifies colorectal cancer into four molecular subtypes with distinct biological characteristics, which may form the basis for clinical stratification and subtype-based targeted intervention. We aim to develop a tool that would, based on this information, automate drug recommendation for patients with a specific molecular subtype of colorectal cancer.
 
