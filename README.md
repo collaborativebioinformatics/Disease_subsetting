@@ -2,7 +2,7 @@
 
 ## Contributors
 
-David Enoma ()
+David Enoma (Davidenoma@gmail.com)
 
 Jędrzej Kubica (jj.kubica@student.uw.edu.pl)
 
