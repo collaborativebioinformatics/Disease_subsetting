@@ -116,7 +116,7 @@ All the code run on a [DNAnexus VM](https://documentation.dnanexus.com/developer
 
 `run_pipeline.sh`
 
-<h3>pathway_visualisation.R<\h3>
+<h3>pathway_visualisation.R</h3>
 
 It was run using RStudio. ([How to run RStudio on DNAnexus?](https://documentation.dnanexus.com/getting-started/tutorials/developer-tutorials/web-app-let-tutorials/running-rstudio-server))
 
