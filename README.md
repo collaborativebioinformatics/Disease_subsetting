@@ -34,7 +34,9 @@ The analysis result is then used to come up with drug recommendations based on e
 
 ![target_pathway_figure_example](fig/demo_plot_1.png)
 
-_TODO_ Radar plot example
+_TODO_ 
+- Extract over/underexpression from .xml files
+- Radar plot example
 
 ![radar_plot_ex](https://user-images.githubusercontent.com/82537630/157955360-6c5caf5a-4a73-44e0-81f1-fdfa24448ed5.png)
 
